@@ -1,0 +1,25 @@
+market,model,period,is_post_countermeasure,countermeasure_id,sales,complaints,customer_satisfaction,warranty_cost,issue_category
+China,Model X,2023-Q1,False,,1200,96,72,48000,Powertrain
+China,Model X,2023-Q2,False,,1250,102,70,49500,Powertrain
+China,Model X,2023-Q3,True,CM-01,1400,84,78,42000,Powertrain
+China,Model X,2023-Q4,True,CM-01,1450,70,81,39500,Powertrain
+China,Model Y,2023-Q1,False,,900,45,80,31000,Infotainment
+China,Model Y,2023-Q2,False,,920,48,78,32500,Infotainment
+China,Model Y,2023-Q3,True,CM-02,940,38,82,30000,Infotainment
+China,Model Y,2023-Q4,True,CM-02,960,34,85,28500,Infotainment
+Europe,Model X,2023-Q1,False,,800,40,76,25000,Powertrain
+Europe,Model X,2023-Q2,False,,820,44,75,26500,Powertrain
+Europe,Model X,2023-Q3,True,CM-03,860,36,80,24000,Powertrain
+Europe,Model X,2023-Q4,True,CM-03,880,32,83,23000,Powertrain
+Europe,Model Y,2023-Q1,False,,700,28,82,21000,Infotainment
+Europe,Model Y,2023-Q2,False,,710,30,81,22000,Infotainment
+Europe,Model Y,2023-Q3,False,,720,32,80,22500,Infotainment
+Europe,Model Y,2023-Q4,False,,730,34,79,23000,Infotainment
+North America,Model X,2023-Q1,False,,1100,88,74,46000,Powertrain
+North America,Model X,2023-Q2,False,,1120,90,73,47000,Powertrain
+North America,Model X,2023-Q3,True,CM-04,1180,76,79,43000,Powertrain
+North America,Model X,2023-Q4,True,CM-04,1200,70,82,41000,Powertrain
+North America,Model Y,2023-Q1,False,,950,52,77,34000,Infotainment
+North America,Model Y,2023-Q2,False,,960,55,75,35000,Infotainment
+North America,Model Y,2023-Q3,True,CM-05,980,46,80,32000,Infotainment
+North America,Model Y,2023-Q4,True,CM-05,990,40,84,30000,Infotainment
