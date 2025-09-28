@@ -31,6 +31,37 @@
    pytest
    ```
 
+## 将本地修改推送到远程仓库
+
+如果你在本地完成了分析函数或数据的修改，可以按照以下步骤将提交推送到远程 Git 仓库：
+
+1. 查看当前仓库状态，确认需要提交的文件：
+
+   ```bash
+   git status
+   ```
+
+2. 将修改添加到暂存区并创建提交：
+
+   ```bash
+   git add <文件或目录>
+   git commit -m "描述此次修改的提交信息"
+   ```
+
+3. 如果尚未配置远程仓库地址，可以使用 `git remote add` 命令进行配置。例如：
+
+   ```bash
+   git remote add origin https://github.com/your-org/abi.git
+   ```
+
+4. 推送到远程仓库的指定分支（如 `main` 或 `work`）：
+
+   ```bash
+   git push origin <分支名>
+   ```
+
+遵循以上步骤即可将本地的 ABI 分析改动同步到远程仓库，便于团队协作和代码备份。
+
 ## 项目结构
 
 ```
